@@ -21,6 +21,16 @@
 			padding: 3em;
 			font-size: bigger;
         }
+		
+		.quiz_body input[type=radio] {
+			cursor: pointer;
+		}
+		
+		.quiz_body input[type=text],{		
+			height: 1em;
+			padding: 0.5em;
+			border: 2px solid darkred;			
+		}
     </style>
 </head>
 
@@ -73,9 +83,12 @@
             <label><input type="radio" name="q7" value="c"> C) Poutine</label><br>
             <label><input type="radio" name="q7" value="d"> D) BeaverTails</label><br><br>
 
-
 			<!-- Question 7 -->
-            <h2>6. Did you notice there are two Question 4s?</h2>
+            <h2>6. What's your favorite snack?</h2>
+            <label><input type="text" name="q_user_favorite" placeholder="eg: Snickers..." /></label><br>
+
+			<!-- Question 8 -->
+            <h2>7. Did you notice there are two Question 4s?</h2>
             <label><input type="radio" name="q7" value="a"> A) What?</label><br>
             <label><input type="radio" name="q7" value="b"> B) Yes!</label><br>
             <label><input type="radio" name="q7" value="c"> C) No...</label><br>
